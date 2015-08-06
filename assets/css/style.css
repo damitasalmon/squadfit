@@ -54,27 +54,32 @@ a {
       .nav {
         list-style-type: none;
         margin: 0;
-        padding: 20px 0;
+        padding: 5px 0 15px 0;
       }
-      /*.nav::before {
+      /*Fix this...
+      .nav::before {
         content: url('../img/thumbs_up.svg');
         height: 32px;
         width:32px;
       }*/
-    .nav img {
-    position: relative;
-    top: 7px;
-    right: 10px;
-    padding-right: 5px;
-  }
+
+      .nav img {
+      position: relative;
+      top: 7px;
+      right: 10px;
+      padding-right: 5px;
+    }
       .nav li {
         color: #FFEAD6;
         display: inline;
         font-weight: 600;
-        font-size: 12px;
+        font-size: 16px;
         margin-right: 25px;
         text-transform: uppercase;
+        font-family: 'SourceSansPro', Helvetica;
+        letter-spacing: .7px;
       }
+
         .nav li:hover {
         color: #172319;
         border-bottom: 1px solid #172319;
