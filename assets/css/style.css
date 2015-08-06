@@ -1,0 +1,212 @@
+@font-face {
+  font-family: 'Ruina';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Ruina.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/SourceSansPro-Regular.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  font-style: bold;
+  font-weight: 600;
+  src: url(../fonts/SourceSansPro-Bold.otf) format('opentype');
+}
+
+
+html, body, a, p, li{
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica, sans-serif;
+      }
+
+a {
+  text-decoration: none;
+}
+      .container {
+        max-width: 940px;
+        margin: 0 auto;
+        padding: 0 10px;
+      }
+
+      
+      .jumbotron {
+        background: slategrey url(../img/221H.jpg) no-repeat center center;
+        background-size: cover;
+        height: 800px;
+    
+          }
+      
+          .main h2{
+            padding-bottom: 20px;
+          }
+
+      .header {
+        background-color: #CB4F27;
+      }
+
+      .header ul::before {
+        content: url('');
+      }
+
+      .nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 20px 0;
+      }
+
+      .nav li {
+        color: #FFEAD6;
+        display: inline;
+        font-weight: 600;
+        font-size: 12px;
+        margin-right: 25px;
+        text-transform: uppercase;
+      }
+        .nav li:hover {
+        color: #172319;
+        border-bottom: 1px solid #172319;
+      }
+
+      .main {
+        position: relative;
+        top: 180px;
+        text-align: center;
+      }
+
+      .main h1 {
+        font-family: 'Ruina', 'SourceSansPro', Helvetica;
+        color: #172319;
+        font-weight: 600;
+        font-size: 70px;
+        margin-top: 0;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 4px rgba(203, 79, 39, 1);
+      }
+      .main h2 {
+        font-weight: 900;
+        font-family: 'SourceSansPro';
+        text-transform: uppercase;
+        color: DarkOrange;
+        font-weight: bold;
+        text-shadow: 2px 3px 4px #000;
+        font-size: 28px;        
+      }
+
+      .btn-primary {
+        background-color: #172319;
+        color: #FFEAD6;
+        font-weight: 300;
+        font-size: 20px;
+        letter-spacing: 1.5px;
+        padding: 16px 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Ruina';
+      }
+       .btn-primary:hover {
+        background-color: #CB4F27;
+        color: #172319;
+        border: 1px solid #172319;
+        box-shadow: 2px 2px 25px 2px #1c1c1c;
+      }
+
+      .btn-default {
+        border: 1px solid #172319;
+        color: #172319;
+        font-weight: 600;
+        font-size: 10px;
+        letter-spacing: 1.3px;
+        padding: 10px 20px;
+        text-decoration: none;
+        text-transform: uppercase;  
+        display: inline-block;
+        margin-bottom: 20px;      
+      }
+      .btn-default:hover {
+        background-color: #354D36;
+        border: 1px solid #CB4F27;
+        color: #FFEAD6; 
+      }
+      
+
+      @media (min-width:720px) {
+        .btn-default {
+          padding: 15px 50px;
+        }
+      }
+
+      .supporting {
+        color: #122F0B;
+        padding-top: 80px;
+        padding-bottom: 100px;
+        background-color: #FFEAD6;
+      }
+
+      .supporting .col {
+        float: left;
+        width: 33%;
+        text-align: center;
+      }
+
+      .supporting img {
+        height: 32px;
+      }
+
+      .supporting h2 {
+        font-weight: 600;
+        font-size: 23px;
+        text-transform: uppercase;
+      }
+
+      .supporting p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 50px;
+        margin-bottom: 40px;
+      }
+
+      .clearfix {
+        clear: both;
+      }
+
+      .footer {
+        background-color: #CB4F27;
+        color: #FFEAD6;
+        padding: 30px 0;
+      }
+
+      .footer p, a{
+        text-transform: uppercase;
+        font-size: 11px;
+        color: #FFEAD6;
+      }
+      .footer a:hover {
+        color: green;
+      }
+
+      .footer .col {
+        float: left;
+        width: 33%;
+        text-align: center;
+    
+      }
+
+      @media (max-width: 500px) {
+        .main h1 {
+          font-size: 50px;
+          padding: 0 40px;
+        }
+
+        .supporting .col {
+          width: 100%;
+        }
+      }
